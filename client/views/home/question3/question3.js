@@ -38,17 +38,6 @@ console.log('PLAY YOUTUBE SONG');
     };
     YT.load();
 
-// PlayersList.insert({name:'john connor'},
-//     {position:'left field'},
-//     {music:'If I were a boy'},
-//     {profile:'John connors was born in 1966 and did a lot of baseball and grew up to become the mlb of I dont care'}
-//     );
-
-//var id = myGames.fetch()[0]._id;
-//console.log(id);
-//PlayersList.remove({id});
-
-
 
 }
 
