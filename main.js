@@ -27,6 +27,7 @@ Router.route('/', function(){
 
 Router.route('/dashboard', function(){
   this.render('dashboard');
+  this.layout('layout');
 })
 
 Router.route('/login', function(){
@@ -62,10 +63,5 @@ Router.route('/Position', function(){
 
 Router.route('/Music', function(){
   this.render('Music');
-  this.layout('layout');
-})
-
-Router.route('/leaderboard', function(){
-  this.render('leaderboard');
   this.layout('layout');
 })

@@ -29,3 +29,10 @@ div .game-container {
 .my-element.animate {
     opacity: 0;
 }
+
+
+.todaysdate{
+display: block;
+    margin-left: auto;
+    margin-right: auto
+}
