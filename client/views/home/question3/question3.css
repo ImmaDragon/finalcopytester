@@ -12,3 +12,20 @@ div .game-container {
     width: 250%;
     height: auto;
 }
+
+#section {
+    width:350px;
+    float:left;
+    padding:10px;
+}
+
+
+
+/*animation*/
+.my-element {
+    opacity: 1;
+    transition: opacity 2000ms;
+}
+.my-element.animate {
+    opacity: 0;
+}

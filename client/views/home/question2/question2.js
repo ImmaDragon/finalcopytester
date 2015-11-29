@@ -19,24 +19,36 @@
 
 
 Template.question2.events({
-//   questi
-// Router.go('/question2');
-
-'click #question2': function(){
-console.log('next button pressed');
-Router.go('/question3');
-
-// Tracker.autorun(function () {
-//   var yt_id = 'AWpsOqh8q0M';
-//   if (yt.ready()) yt.player.loadVideoById(yt_id);
-// });
 
 
 
 
+    'click .btn-one': function() {
+        Router.go('/question3');
+    },
+    'click .btn-two': function() {
+      //if clicked, return the color
+      Router.go('/question3');
+    },
+    'click .btn-three': function() {
+      //if clicked, return the color
+
+      Router.go('/question3');
+    },
+    'click .btn-four': function() {
+      //if clicked, return the color
+      Router.go('/question3');
+    },
+    'click .btn-five': function() {
+      Router.go('/question3');
+    },
+    'click .btn-six': function() {
+      Router.go('/question3');
+    }
 
 
-}
+
+
 
 });
 

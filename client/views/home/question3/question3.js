@@ -30,8 +30,8 @@ console.log('PLAY YOUTUBE SONG');
         // New Video Player, the first argument is the id of the div.
         // Make sure it's a global variable.
         player = new YT.Player("player", {
-            height: "200",
-            width: "400",
+            height: "170",
+            width: "170",
             // videoId is the "v" in URL (ex: http://www.youtube.com/watch?v=LdH1hSWGFGU, videoId = "LdH1hSWGFGU")
             videoId: "LdH1hSWGFGU",
             // Events like ready, state change,
@@ -59,59 +59,25 @@ PlayersList.insert({name:'john connor'},
 
 },
     'click #btn-two': function() {
-      Router.go('/Position');
+console.log('something');
 
 
 
     },
         'click #btn-three': function() {
-      Router.go('/Music');
+      console.log('something');
     },
     'click #mvp-one': function(){
         console.log('robert chosen');
-
-        $(document).ready(function(){
-    $("#hide").click(function(){
-        $("p").hide();
-    });
-    $("#show").click(function(){
-        $("p").show();
-    });
-});
-
     },
     'click #mvp-two': function(){
-console.log('robert chosen');
-
-$(document).ready(function(){
-    $("#mvp-two").click(function(){
-        $("p1").hide();
-    });
-});
+        console.log('robert chosen');
     },
     'click #mvp-three': function(){
-console.log('robert chosen');
-
-$(document).ready(function(){
-    $("#hide").click(function(){
-        $("p").hide();
-    });
-    $("#show").click(function(){
-        $("p").show();
-    });
-});
+        console.log('robert chosen');
     },
     'click #mvp-four': function(){
     console.log('robert chosen')
-
-    $(document).ready(function(){
-    $("#hide").click(function(){
-        $("p").hide();
-    });
-    $("#show").click(function(){
-        $("p").show();
-    });
-});
 }
 
 
