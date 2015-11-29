@@ -5,5 +5,6 @@ PatientDateFlag =  new Mongo.Collection("patientdateflag");
 
 
 PlayersList = new Mongo.Collection("playerslist");
-CFLPlayers = new Mongo.Collection('cflplayers');
 Players = new Meteor.Collection("players");
+
+CFLPlayers = new Mongo.Collection('cflplayers');

@@ -1,21 +1,14 @@
-// Here is the top 3 songs played by mvps of this team
+//CFLPlayers = new Mongo.Collection('cflplayers');
 
 
-// 1)
-// 2)
-// 3)
+// Template.question3.helpers(
+// {player1a: "This is task 1"},
+// {player1b: "This is task 2"},
+// {player1c: "This is task 3"),
 
 
 
-// 1)
-// 2)
-// 3)
-
-// plays song immediately of 1)
-// plays song immediately of 2)
-// plays song immediately of 3)
-
-// also find a way to display profile data, data analytics data, position data what it is.
+// });
 
 
 
@@ -45,11 +38,11 @@ console.log('PLAY YOUTUBE SONG');
     };
     YT.load();
 
-PlayersList.insert({name:'john connor'},
-    {position:'left field'},
-    {music:'If I were a boy'},
-    {profile:'John connors was born in 1966 and did a lot of baseball and grew up to become the mlb of I dont care'}
-    );
+// PlayersList.insert({name:'john connor'},
+//     {position:'left field'},
+//     {music:'If I were a boy'},
+//     {profile:'John connors was born in 1966 and did a lot of baseball and grew up to become the mlb of I dont care'}
+//     );
 
 //var id = myGames.fetch()[0]._id;
 //console.log(id);
@@ -57,39 +50,6 @@ PlayersList.insert({name:'john connor'},
 
 
 
-},
-    'click #btn-two': function() {
-console.log('something');
-
-
-
-    },
-        'click #btn-three': function() {
-      console.log('something');
-    },
-    'click #mvp-one': function(){
-        console.log('robert chosen');
-    },
-    'click #mvp-two': function(){
-        console.log('robert chosen');
-    },
-    'click #mvp-three': function(){
-        console.log('robert chosen');
-    },
-    'click #mvp-four': function(){
-    console.log('robert chosen')
 }
 
-
-// if button one is clicked,
-// players insert.
-// name: "john connor"
-// position: "left field"
-// music: "if i were a boy"
-// profile information: "somethign something someting etcetc. this is really long just like my jesus"
-
-
-
-
-
-});
+}); //end of events

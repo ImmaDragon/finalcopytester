@@ -23,10 +23,10 @@
 
 
 <!-- i guess if you click on a button, it will hide $(".divIDClass").hide(); $(".divIDClass").show(); -->
-<div class="first post">
+<div class="first-post">
 {{#Animate}}
     <div class="my-element animate">
-        <div id="section">
+        <div id="section1">
             <h2>Song</h2>
                     <body>
                         <div id="player"></div>
@@ -38,15 +38,11 @@
 
 
 
-<div class="second post">
+<div class="second-post">
 {{#Animate}}
     <div class="my-element animate">
-        <div id="section">
-            <h2>Position: Left Field</h2>
-            <p>
-            London is the capital city of England. It is the most populous city in the United Kingdom,
-            with a metropolitan area of over 13 million inhabitants.
-            </p>
+        <div id="section2">
+            <h2>Position</h2>
             <p>
             Standing on the River Thames, London has been a major settlement for two millennia,
             its history going back to its founding by the Romans, who named it Londinium.
@@ -57,19 +53,25 @@
 </div>
 
 
+<!-- so basically whenever I CLICK on a player, it displays shit using jquery. ALSO. it displays the correct information
+such as the name of the person I clicked, based on the button -->
 
-<div class="third post">
+<div class="third-post">
 {{#Animate}}
     <div class="my-element animate">
-        <div id="section">
+        <div id="section3">
             <h2>Profile Stats</h2>
             <p>
-            London is the capital city of England. It is the most populous city in the United Kingdom,
-            with a metropolitan area of over 13 million inhabitants.
-            </p>
-            <p>
-            Standing on the River Thames, London has been a major settlement for two millennia,
-            its history going back to its founding by the Romans, who named it Londinium.
+<!--             <ul>
+                <li>name: {{name}}</li>
+                <li>birthplace: {{birthplace}}</li>
+                <li>height (ft.): {{height}}</li>
+                <li>weight (lbs.): {{weight}}</li>
+            </ul> -->
+
+
+
+
             </p>
         </div>
     </div>
@@ -92,8 +94,10 @@
                         <img src="/images/pic2/Gerald-Riggs-Jr-CROPPED.jpg" id="mvp-two">
                         <img src="/images/pic3/rgtydnbsd222j231.jpg" id="mvp-three">
 
+                        <div class="fourth-post">
                         <p>Favorite</p>
                         <img src="/images/pic5/mike-renaud-copy1.jpg" id="mvp-four">
+                        </div>
                     </form>
 
                     <!-- user clikcs on profile information a scroll pops up -->
